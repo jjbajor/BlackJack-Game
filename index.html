@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/Public GitHub Repos.loader.js"></script>
+    <script src="Build/Test1.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -25,9 +25,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Public GitHub Repos.data.br",
-        frameworkUrl: "Build/Public GitHub Repos.framework.js.br",
-        codeUrl: "Build/Public GitHub Repos.wasm.br",
+        dataUrl: "Build/Test1.data.br",
+        frameworkUrl: "Build/Test1.framework.js.br",
+        codeUrl: "Build/Test1.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "My project",
